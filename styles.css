@@ -163,6 +163,30 @@ main {
     max-width: 50%;
     margin: 0 auto;
 }
+
+.m-heading-container > span {
+    text-align: center;
+    display: block;
+    margin-top: 1%;
+    position: relative;
+}
+
+.m-heading-container span > a {
+    color: white;
+    background-color: var(--primary-tcolor);
+    font-family: var(--open-sans);
+    font-size: large;
+    padding: .35em .8em;
+    border-radius: 5px;
+}
+
+/* .link-icon {
+    width: 2.5%;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 55%;
+} */
 /* end of div container */
 
 /* end of main section styles */
