@@ -6,16 +6,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
 /* end of imports */
 
+/* --------------------------------------------------------------------------------- */
 
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style-type: none;
 }
+
+/* --------------------------------------------------------------------------------- */
 
 /* css custom properties */
 
@@ -27,7 +32,8 @@
 
     /* fonts */
     --cursive: 'Sofia', cursive;
-    --sans-serif: 'Open Sans', sans-serif;
+    --quicksand: 'Quicksand', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
 
     /* font sizes */
     --large: 3.157rem;
@@ -38,13 +44,82 @@
 }
 
 /* end of css custom properties */
-
-
-body {
     
-
+/* --------------------------------------------------------------------------------- */
 
 /* header styles */
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+/* first div container */
+.h-tl-container {
+    flex-grow: 2;
+    /* border: 1px solid black; */
+}
+
+.h-tl-container > span {
+    margin-left: 3%;
+}
+
+.h-tl-container span > a {
+    font-family: var(--cursive);
+    color: var(--primary-tcolor);
+    font-size: xx-large;
+    font-weight: 700;
+}
+/* end of first div container */
+
+/* second div container */
+.h-nav-container {
+    flex-grow: 2;
+    /* border: 1px solid black; */
+    font-family: var(--quicksand);
+}
+
+.h-nav-container nav ul li > a {
+    color: var(--secondary-tcolor);
+}
+
+.h-nav-container nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+/* end of second div container */
+
+/* third div container */
+.h-btn-container {
+    flex-grow: 1;
+    /* border: 1px solid black; */
+    font-family: var(--open-sans);
+}
+
+.h-btn-container > div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.h-btn-container div > span {
+    margin-right: 5%;
+}
+
+.h-btn-container div span > a {
+    padding: .3em .9em;
+    border-radius: 5px;
+}
+
+.l-btn {
+    color: white;
+    background-color: var(--primary-tcolor);
+}
+
+.s-btn {
+    color: white;
+    background-color: var(--secondary-tcolor);
+}
+/* end of third div container */
 
 /* end of header styles */
