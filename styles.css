@@ -65,12 +65,12 @@ header {
 
 /* first div container */
 .h-tl-container {
-    flex-grow: 2;
+    flex-grow: 1;
     /* border: 1px solid black; */
 }
 
 .h-tl-container > span {
-    margin-left: 3%;
+    margin-left: 10%;
 }
 
 .h-tl-container span > a {
@@ -167,7 +167,7 @@ main {
 .m-heading-container > span {
     text-align: center;
     display: block;
-    margin-top: 1%;
+    margin-top: 2%;
     position: relative;
 }
 
@@ -178,15 +178,18 @@ main {
     font-size: large;
     padding: .35em .8em;
     border-radius: 5px;
+    position: relative;
+    padding-right: 2.3em;
 }
 
-/* .link-icon {
-    width: 2.5%;
-    color: black;
+.link-icon {
+    width: 14%;
+    color: white;
     position: absolute;
-    top: 0px;
-    left: 55%;
-} */
+    top: 4;
+    left: 170;
+
+}
 /* end of div container */
 
 /* end of main section styles */
