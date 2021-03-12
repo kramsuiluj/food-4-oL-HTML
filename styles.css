@@ -1,5 +1,86 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+/* font-family: 'Sofia', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+/* end of imports */
+
+
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 }
+
+/* css custom properties */
+
+:root {
+    /* colors */
+    --primary-color: #7cc6fe;
+    --primary-tcolor: #07111D;
+
+    /* fonts */
+    --cursive: 'Sofia', cursive;
+    --sans-serif: 'Open Sans', sans-serif;
+
+    /* font sizes */
+    --large: 3.157rem;
+    --medium: 2.369rem;
+    --small: 1.777rem;
+    --smaller: 1.333rem;
+    --smallest: 1.2rem;
+}
+
+/* end of css custom properties */
+
+
+body {
+    background-color: var(--primary-color);
+}
+
+
+/* header styles */
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.6);
+}
+
+.text-logo {
+    color: var(--primary-tcolor);
+    font-family: var(--cursive);
+    font-size: var(--medium);
+}
+
+.logo-container {
+    margin-left: 1%;
+}
+
+.main-ul {
+    display: flex;
+    font-size: var(--smallest);
+}
+
+.nav-label {
+    font-family: var(--sans-serif);
+    color: var(--primary-tcolor);
+}
+
+.nav-item {
+    /* margin-right: 5%; */
+}
+
+nav {
+
+}
+
+/* end of header styles */
