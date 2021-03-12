@@ -41,59 +41,10 @@
 
 
 body {
-    background-color: var(--primary-color);
-}
+    
 
 
 /* header styles */
 
-header {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.6);
-}
-
-.text-logo {
-    color: var(--primary-tcolor);
-    font-family: var(--cursive);
-    font-size: var(--medium);
-}
-
-.logo-container {
-    margin-left: 3%;
-}
-
-.h-section-one {
-    flex-grow: 1;
-    margin-bottom: .5%;
-}
-
-.h-section-two {
-    flex-grow: 1;
-}
-
-.h-section-two nav > ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.h-section-two nav ul > li {
-    margin-right: 10%;
-}
-
-.h-section-two nav ul li > a {
-    color: var(--secondary-tcolor);
-}
-
-.login-btn {
-    background-color: #BFD5EC;
-    padding: .3rem .9rem;
-    border-radius: 5%;
-    border: .1rem solid var(--primary-tcolor);
-}
 
 /* end of header styles */
