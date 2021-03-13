@@ -118,17 +118,10 @@ header {
 .h-btn-container div span > a {
     padding: .3em .9em;
     border-radius: 5px;
-}
-
-.l-btn {
     color: white;
     background-color: var(--primary-tcolor);
 }
 
-.s-btn {
-    color: white;
-    background-color: var(--primary-tcolor);
-}
 /* end of third div container */
 
 /* end of header styles */
@@ -229,6 +222,7 @@ section {
 
 footer {
     margin-top: 4%;
+    margin-bottom: 1%;
     border-top: 1px solid lightgray;
 }
 
