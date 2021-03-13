@@ -193,3 +193,30 @@ main {
 /* end of div container */
 
 /* end of main section styles */
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* image section styles */
+
+section {
+
+}
+
+.img-container {
+    width: 100%;
+    background-image: url('public/img/cover-img5.jpg');
+    background-size: cover;
+    min-height: 90%;
+    box-shadow: inset 50px 50px 100px rgb(27, 27, 27),
+            inset -50px -50px 100px rgb(27, 27, 27);
+}
+
+/* .img-container > img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+} */
+
+/* end of image section styles */
