@@ -247,14 +247,33 @@ footer > p {
 
 /* signup page styles */
 
+.su-title {
+    font-family: var(--cursive);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.su-title > a {
+    color: var(--secondary-tcolor);
+}
+
+.su-hr {
+    width: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+
+}
+
 .su-main {
     /* border: 1px solid black; */
     display: flex;
     width: 100%;
     max-width: 80%;
-    margin: 5% auto;
+    margin: 2% auto;
     box-shadow:  5px 5px 10px #848484,
-             -5px -5px 10px #ffffff;
+             -5px -5px 10px transparent;
 }
 
 /* img section styles */
@@ -288,6 +307,14 @@ footer > p {
     margin-top: 2.5%;
     font-family: var(--cursive);
     text-align: center;
+    color: var(--secondary-tcolor);
+}
+
+.form-section > p {
+    text-align: center;
+    font-family: var(--open-sans);
+    font-size: small;
+    color: gray;
 }
 
 .form-section > form {
@@ -302,7 +329,8 @@ footer > p {
     font-family: var(--open-sans);
     margin-left: 10%;
     font-size: large;
-    color: var(--secondary-tcolor);
+    color: var(--primary-tcolor);
+    font-weight: 500;
 }
 
 .form-section form section > input {
@@ -323,7 +351,6 @@ footer > p {
 .form-section form section > button {
     width: 100%;
     max-width: 25%;
-    margin: 0 37.5%;
     font-family: var(--open-sans);
     font-size: large;
     border-radius: 5px;
@@ -331,6 +358,27 @@ footer > p {
     background-color: var(--primary-tcolor);
     color: white;
     padding-bottom: 3px;
+    margin-left: 10%;
+    margin-right: 3%;
+    transition: ease-out 400ms;
+}
+
+.form-section form section > button:hover {
+    background-color: var(--secondary-tcolor);
+    max-width: 26%;
+    cursor: pointer;
+}
+
+.form-section form section > span {
+    font-family: var(--open-sans);
+}
+
+.form-section form section span > a {
+    color: var(--secondary-tcolor);
+}
+
+.form-section form section span > a:hover {
+    border-bottom: 1px solid var(--secondary-tcolor);
 }
 
 .form-section form > section:nth-child(6) {
