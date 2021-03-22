@@ -283,17 +283,17 @@ footer > p {
              -5px -5px 10px transparent;
 }
 
-/* img section styles */
-.img-section {
+/* su-img section styles */
+.su-img-section {
     flex: 100%;
-    background: url('public/img/cover-img6.jpg');
+    background: url('public/img/together.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: inset 45px 45px 90px #3a3a3a,
             inset -45px -45px 90px #3a3a3a;
 }
 
-.img-section > img {
+.su-img-section > img {
     width: 75%;
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -301,8 +301,8 @@ footer > p {
 }
 /* end of img section styles */
 
-/* form section styles */
-.form-section {
+/* su-form section styles */
+.su-form-section {
     flex: 1 0 100%;
     width: 100%;
     max-width: 60%;
@@ -311,29 +311,29 @@ footer > p {
     background-color: white;
 }
 
-.form-section > h2 {
+.su-form-section > h2 {
     margin-top: 2.5%;
     font-family: var(--cursive);
     text-align: center;
     color: var(--secondary-tcolor);
 }
 
-.form-section > p {
+.su-form-section > p {
     text-align: center;
     font-family: var(--open-sans);
     font-size: small;
     color: gray;
 }
 
-.form-section > form {
+.su-form-section > form {
 
 }
 
-.form-section form > section {
+.su-form-section form > section {
     margin-top: 1.5rem;
 }
 
-.form-section form section > label {
+.su-form-section form section > label {
     font-family: var(--open-sans);
     margin-left: 10%;
     font-size: large;
@@ -341,7 +341,7 @@ footer > p {
     font-weight: 500;
 }
 
-.form-section form section > input {
+.su-form-section form section > input {
     font-family: var(--open-sans);
     font-size: medium;
     width: 100%;
@@ -352,11 +352,11 @@ footer > p {
     border-bottom: 1px solid var(--primary-tcolor);
 }
 
-.form-section form section > input:focus {
+.su-form-section form section > input:focus {
     outline: none;
 }
 
-.form-section form section > button {
+.su-form-section form section > button {
     width: 100%;
     max-width: 25%;
     font-family: var(--open-sans);
@@ -371,27 +371,37 @@ footer > p {
     transition: ease-out 400ms;
 }
 
-.form-section form section > button:hover {
+.su-form-section form section > button:hover {
     background-color: var(--secondary-tcolor);
     max-width: 26%;
     cursor: pointer;
 }
 
-.form-section form section > span {
+.su-form-section form section > span {
     font-family: var(--open-sans);
 }
 
-.form-section form section span > a {
+.su-form-section form section span > a {
     color: var(--secondary-tcolor);
 }
 
-.form-section form section span > a:hover {
+.su-form-section form section span > a:hover {
     border-bottom: 1px solid var(--secondary-tcolor);
 }
 
-.form-section form > section:nth-child(6) {
+.su-form-section form > section:nth-child(6) {
     margin-bottom: 4%;
 }
 /* end of form section styles */
 
 /* end of signup page styles */
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* login page styles */
+
+
+
+/* end of login page styles */
