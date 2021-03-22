@@ -247,9 +247,47 @@ footer > p {
 
 /* signup page styles */
 
+.su-main {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    max-width: 80%;
+    margin: 5% auto;
+    box-shadow:  5px 5px 10px #848484,
+             -5px -5px 10px #ffffff;
+}
+
+/* img section styles */
+.img-section {
+    flex: 100%;
+    background: url('public/img/cover-img6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 90px #3a3a3a,
+            inset -45px -45px 90px #3a3a3a;
+}
+
+.img-section > img {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 20%;
+}
+/* end of img section styles */
+
 /* form section styles */
 .form-section {
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    /* border-left: 1px solid black; */
+}
 
+.form-section > h2 {
+    margin-top: 2.5%;
+    font-family: var(--cursive);
+    text-align: center;
 }
 
 .form-section > form {
@@ -257,19 +295,46 @@ footer > p {
 }
 
 .form-section form > section {
-
+    margin-top: 1.5rem;
 }
 
 .form-section form section > label {
-
+    font-family: var(--open-sans);
+    margin-left: 10%;
+    font-size: large;
+    color: var(--secondary-tcolor);
 }
 
 .form-section form section > input {
+    font-family: var(--open-sans);
+    font-size: medium;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 10%;
+    margin-top: 1%;
+    border: none;
+    border-bottom: 1px solid var(--primary-tcolor);
+}
 
+.form-section form section > input:focus {
+    outline: none;
 }
 
 .form-section form section > button {
-    
+    width: 100%;
+    max-width: 25%;
+    margin: 0 37.5%;
+    font-family: var(--open-sans);
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-tcolor);
+    color: white;
+    padding-bottom: 3px;
+}
+
+.form-section form > section:nth-child(6) {
+    margin-bottom: 4%;
 }
 /* end of form section styles */
 
