@@ -551,7 +551,15 @@ footer > p {
     font-family: var(--cursive);
     text-align: center;
     color: var(--secondary-tcolor);
-    padding-top: 1px;
+    padding-top: 15px;
+}
+
+.con-form-section > p {
+    text-align: center;
+    font-family: var(--open-sans);
+    font-size: small;
+    color: gray;
+    margin-top: -3%;
 }
 
 /* con-form section styles */
@@ -579,6 +587,8 @@ footer > p {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
+    border: none;
+    border-bottom: 1px solid var(--primary-tcolor);
 }
 
 .con-form-section form section > input:focus {
@@ -592,6 +602,7 @@ footer > p {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
+    border: 1px solid var(--primary-tcolor);
 }
 
 .con-form-section form section > textarea:focus {
