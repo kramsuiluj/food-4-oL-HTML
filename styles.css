@@ -27,15 +27,7 @@
 }
 
 body {
-    background: hsla(97, 81%, 85%, 1);
 
-    background: linear-gradient(90deg, hsla(97, 81%, 85%, 1) 0%, hsla(157, 30%, 92%, 1) 100%);
-
-    background: -moz-linear-gradient(90deg, hsla(97, 81%, 85%, 1) 0%, hsla(157, 30%, 92%, 1) 100%);
-
-    background: -webkit-linear-gradient(90deg, hsla(97, 81%, 85%, 1) 0%, hsla(157, 30%, 92%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D3F8BC", endColorstr="#E3F0EB", GradientType=1 );
 }
 
 /* --------------------------------------------------------------------------------- */
