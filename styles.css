@@ -551,7 +551,6 @@ footer > p {
     font-family: var(--open-sans);
     font-size: small;
     color: gray;
-    margin-top: -3%;
 }
 
 /* con-form section styles */
@@ -572,6 +571,7 @@ footer > p {
     font-family: var(--open-sans);
     color: var(--primary-tcolor);
     font-size: large;
+    font-weight: 600;
 }
 
 .con-form-section form section > input {
@@ -580,7 +580,7 @@ footer > p {
     margin-right: 10%;
     margin-top: 1%;
     border: none;
-    border-bottom: 1px solid var(--primary-tcolor);
+    border-bottom: 1px solid var(--secondary-tcolor);
 }
 
 .con-form-section form section > input:focus {
@@ -594,7 +594,7 @@ footer > p {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
-    border: 1px solid var(--primary-tcolor);
+    border: 1px solid var(--secondary-tcolor);
 }
 
 .con-form-section form section > textarea:focus {
