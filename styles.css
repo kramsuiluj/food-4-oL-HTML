@@ -537,6 +537,80 @@ footer > p {
 
 /* contact page styles */
 
+.con-main {
+    width: 100%;
+    max-width: 40%;
+    margin: 0 auto;
+    box-shadow:  5px 5px 10px #848484,
+             -5px -5px 10px transparent;
+    margin-top: 2.5%;
+    background-color: white;
+}
 
+.con-form-section > h2 {
+    font-family: var(--cursive);
+    text-align: center;
+    color: var(--secondary-tcolor);
+    padding-top: 1px;
+}
+
+/* con-form section styles */
+.con-form-section {
+    /* border: 1px solid black; */
+}
+
+.con-form-section > form {
+
+}
+
+.con-form-section form > section {
+    margin-top: 4%;
+}
+
+.con-form-section form section > label {
+    margin-left: 10%;
+    font-family: var(--open-sans);
+    color: var(--primary-tcolor);
+    font-size: large;
+}
+
+.con-form-section form section > input {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.con-form-section form section > input:focus {
+    outline: none;
+}
+
+.con-form-section form section > textarea {
+    width: 80%;
+    height: 30%;
+    resize: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.con-form-section form section > textarea:focus {
+    outline: none;
+}
+
+.con-form-section form section > button {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: var(--open-sans);
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-tcolor);
+    color: white;
+    padding-bottom: 3px;
+    margin-bottom: 3%;
+}
+/* end of con-form section styles */
 
 /* end of contact page styles */
